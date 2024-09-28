@@ -1,0 +1,29 @@
+@echo off
+REM Chemin vers le répertoire contenant les fichiers .java
+set src_dir=C:\Users\darkl\IdeaProjects\Projet_BDDA\src
+REM Chemin vers le répertoire où les .class seront placés (le dossier build par exemple)
+set bin_dir=C:\Users\darkl\IdeaProjects\Projet_BDDA\bin
+
+REM Création du dossier pour les .class si nécessaire
+if not exist %bin_dir% (
+    mkdir %bin_dir%
+)
+
+REM Compilation des fichiers .java avec spécification de la version cible
+echo Compilation en cours...
+
+javac -d %bin_dir% -source 22 -target 22 %src_dir%*.java
+
+
+REM Vérification que la compilation a réussi
+if %errorlevel% neq 0 (
+    echo Erreur lors de la compilation.
+    exit /b %errorlevel%
+)
+
+REM Exécution du programme
+echo Exécution du programme...
+cd %bin_dir%
+java Main
+
+pause
