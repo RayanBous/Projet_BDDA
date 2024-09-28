@@ -1,5 +1,0 @@
-{
-  "dbpath": "../DB",
-  "pagesize" : 4096,
-  "dm_maxfilesize" : 12287
-}
