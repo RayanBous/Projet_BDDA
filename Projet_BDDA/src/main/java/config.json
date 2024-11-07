@@ -1,7 +1,0 @@
-{
-  "dbpath": "DataBase",
-  "pagesize" : 4096,
-  "dm_maxfilesize" : 12287,
-  "bm_buffercount" : 19,
-  "bm_policy" : "LRU"
-}
