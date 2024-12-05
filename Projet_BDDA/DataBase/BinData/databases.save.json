@@ -1,0 +1,16 @@
+{"Bases de données": {
+    "Db1": {
+        "info BD": {
+            "Nbr Relations": 0,
+            "Relations": []
+        },
+        "Nom BD": "Db1"
+    },
+    "Db3": {
+        "info BD": {
+            "Nbr Relations": 0,
+            "Relations": []
+        },
+        "Nom BD": "Db3"
+    }
+}}
