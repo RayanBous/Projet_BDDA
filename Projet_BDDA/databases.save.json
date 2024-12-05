@@ -1,0 +1,34 @@
+{"Bases de données": {
+    "Db1": {
+        "info BD": {
+            "Nbr Relations": 1,
+            "Relations": [{
+                "Nom relation": "Tab1",
+                "Colonnes": [{
+                    "Nom Colonne": "C2",
+                    "Taille Colonne": 4,
+                    "Type Colonne": "INT"
+                }],
+                "Header page": "PageId{fileIdx=1, pageIdx=38}",
+                "Nombre colonnes": 1
+            }]
+        },
+        "Nom BD": "Db1"
+    },
+    "Db2": {
+        "info BD": {
+            "Nbr Relations": 1,
+            "Relations": [{
+                "Nom relation": "Tab1",
+                "Colonnes": [{
+                    "Nom Colonne": "Toto",
+                    "Taille Colonne": 20,
+                    "Type Colonne": "VARCHAR"
+                }],
+                "Header page": "PageId{fileIdx=39, pageIdx=1}",
+                "Nombre colonnes": 1
+            }]
+        },
+        "Nom BD": "Db2"
+    }
+}}
