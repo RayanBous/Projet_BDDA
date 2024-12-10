@@ -1,0 +1,27 @@
+{"dataBases": {"Corbeille": {
+    "tables": {"Pomme": {
+        "numberOfColumns": 3,
+        "columns": [
+            {
+                "size": 1,
+                "name": "C1",
+                "type": "INT"
+            },
+            {
+                "size": 3,
+                "name": "C2",
+                "type": "VARCHAR"
+            },
+            {
+                "size": 1,
+                "name": "C3",
+                "type": "INT"
+            }
+        ],
+        "headerPageId": {
+            "pageIdx": 0,
+            "fileIdx": 0
+        }
+    }},
+    "numberOfTables": 1
+}}}
