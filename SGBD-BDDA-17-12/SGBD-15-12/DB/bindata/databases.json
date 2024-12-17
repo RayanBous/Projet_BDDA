@@ -1,0 +1,78 @@
+{"dataBases": {"BDDA": {
+    "tables": {
+        "R": {
+            "numberOfColumns": 6,
+            "columns": [
+                {
+                    "size": 1,
+                    "name": "c1",
+                    "type": "INT"
+                },
+                {
+                    "size": 13,
+                    "name": "c2",
+                    "type": "VARCHAR"
+                },
+                {
+                    "size": 1,
+                    "name": "c3",
+                    "type": "REAL"
+                },
+                {
+                    "size": 1,
+                    "name": "c4",
+                    "type": "INT"
+                },
+                {
+                    "size": 1,
+                    "name": "c5",
+                    "type": "INT"
+                },
+                {
+                    "size": 5,
+                    "name": "c6",
+                    "type": "VARCHAR"
+                }
+            ],
+            "headerPageId": {
+                "pageIdx": 0,
+                "fileIdx": 17
+            }
+        },
+        "T": {
+            "numberOfColumns": 5,
+            "columns": [
+                {
+                    "size": 3,
+                    "name": "c1",
+                    "type": "CHAR"
+                },
+                {
+                    "size": 1,
+                    "name": "c2",
+                    "type": "INT"
+                },
+                {
+                    "size": 1,
+                    "name": "c3",
+                    "type": "INT"
+                },
+                {
+                    "size": 1,
+                    "name": "c4",
+                    "type": "INT"
+                },
+                {
+                    "size": 3,
+                    "name": "c5",
+                    "type": "CHAR"
+                }
+            ],
+            "headerPageId": {
+                "pageIdx": 2,
+                "fileIdx": 25
+            }
+        }
+    },
+    "numberOfTables": 2
+}}}
